@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Nkem Ohanenye</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: "Times New Roman", Times, serif;
             scroll-behavior: smooth;
+            background-color: lightblue;
         }
 
         .faded {
@@ -82,7 +83,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Nkem Ohanenye<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -97,6 +98,9 @@
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -104,32 +108,33 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Nkem!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
+            <h5 class="display-5 mx-auto faded text-center alert alert-warning" role="alert">I'm an Information Science & Technology Student at Temple
                 University.</h5>
         </div>
         <div class="row my-4">
             <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
-
             <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
             <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="Java" /></div>
-
+                    
+            <div class="col my-3"><img src="images/HTML5.png" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="HTML5" /></div>
+            <div class="col my-3"><img src="images/css.png" class="lang" data-toggle="tooltip"
+                    data-placement="top" title="Cascade Style Sheets" /></div>
+            <div class="col my-3"><img src="images/JS.png" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="JavaScript" /></div>
+            
             <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
+            <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="Microsoft SQL Server" /></div> 
+            <div class="col my-3"><img src="images/bootstrap.png" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="Bootstrap" /></div>
 
         </div>
         <div class="row my-4">
@@ -138,6 +143,9 @@
             </div>
             <div class="col">
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
+            </div>
+            <div class="col">
+                <a href="#about"><button type="button" class="btn btn-outline">About</button></a>
             </div>
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
@@ -153,38 +161,35 @@
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+            <h5 class="display-5 mx-auto faded text-center mb-4 alert alert-warning" role="alert">I've worked on some neat things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5 class="font-weight-bold">Unit Assessment System (UAS)</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">In a group environment encompassing a whole year, a system is being developed to 
+            replace the way Assessments are done and reviewed for the Temple University Office of Institutional Research 
+            and Assessment. The project is based off the Student Learning Management Assessment System (SLAM) and through 
+            the development we will learn the Software Development Life Cycle (SDLC) as getting used to interviewing clients 
+            and document our understandings and findings into a user manual.</p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5 class="font-weight-bold">Mastermind Game</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">In a group environment encompassing of 2 members, we developed a game of choice 
+            in C# using Visual Studio focusing on encaspulation and low coupling. Through the development of the game 
+            we learned how to create a search algorithm to check what the user chose as the code and compared it with 
+            the randomly generated code and show the user if they were close or not. The game's window also dynamically 
+            changed size depending on the difficulty of the game the user wanted to play.</p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5 class="font-weight-bold">Quadforge</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">Woring in a group of programmers in configuring a Raspberry Pi with Java to read a 
+            motor and upload the readings to a text file. Through the project we learned how to read pin outs and adjust 
+            the settings of the motor, for example: adjusting the speed at which the motor would spin.</p>
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
@@ -195,31 +200,51 @@
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center alert alert-warning" role="alert">Not as tasty as a main course, but close.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
+            <a tabindex="0" class="col text-center course btn btn-lg" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Information Systems Analysis and Design" data-content="Working with a client to create a system for their use.">
                 <h5>Information Systems Analysis and Design</h5>
-            </div>
-            <div class="col text-center course">
+            </a>
+            <a tabindex="0" class="col text-center course  btn btn-lg" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Server-Side Web Application Development" data-content="Understanding Asp.Net and learning how to develop aspx pages that interest with a server.">
                 <h5>Server-Side Web Application Development</h5>
-            </div>
+            </a>
         </div>
         <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
+            <a tabindex="0" class="col text-center course btn btn-lg" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Network Architectures" data-content="Teaching the fundamentals of how Computers and Technology works.">
                 <h5>Network Architectures</h5>
-            </div>
-            <div class="col text-center course">
+            </a>
+            <a tabindex="0"  class="col text-center course btn btn-lg" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Client-Side Scripting" data-content="Understanding HTML/CSS and learn how to use JavaScript.">
                 <h5>Client-Side Scripting</h5>
-            </div>
+            </a>
         </div>
         <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
+            <a tabindex="0" class="col text-center course btn btn-lg" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Component-Based Software Design" data-content="Understanding encaspulation, low copuling and Visual Studio  while understanding what it means to make a good program.">
                 <h5>Component-Based Software Design</h5>
-            </div>
-            <div class="col text-center course">
+            </a>
+            <a tabindex="0" class="col text-center course btn btn-lg" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Database Management Systems" data-content="Understanding how to work with databases.">
                 <h5>Database Management Systems</h5>
-            </div>
+            </a>
+        </div>
+        <div class="row mt-5 next">
+            <a href="#about" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="About"></i></a> </div>
+    </div>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="about">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">About</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center alert alert-warning" role="alert">A little about myself.</h5>
+        </div>
+        <div class="row w-100 mb-4">
+            <p class="text-justify">As a child, I had a passion for understanding things I don't understand. From taking apart 
+            game systems to figure out how they worked and taking apart modern computers for the same purpose, I have had a 
+            passion for computers. I yearn to learn new things I dont understand and try my hardest to not give up even when 
+            I sit there for hours completely confused. Few technical skils I'm trying to learn on my own is assembly, reverse 
+            engineering of programs and files to see, and understanding circuits on a PCB. Few skills im learning not related 
+            to technology is the restoration of images/video/audio and the repairing of older devices. I also dabble a bit in 
+            modding.</p>
         </div>
         <div class="row mt-5 next">
             <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
@@ -230,14 +255,14 @@
             <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center alert alert-warning" role="alert">I don't bite.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:nkemohanenye@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/nkem-o-aaaa70132/" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/NkemOhanenye" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
@@ -259,6 +284,14 @@
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
+        })
+        
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+        
+        $('.popover-dismiss').popover({
+            trigger: 'focus'
         })
     </script>
 </body>
